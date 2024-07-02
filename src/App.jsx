@@ -16,7 +16,7 @@ const App = () => {
 
   const handleSearch = async () => {
     const endpoint = 'https://api.github.com/graphql';
-    const token ='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';
+    const token ='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';
     console.log('Token:', token);
   
     if (!token) {
